@@ -1,17 +1,17 @@
-# TechAbout Assessment: PKHosting Renewals Cleanup & TECHi Scraper
+# Subscription Renewals Pipeline & Polite Web Audit Tool
 
-This repository contains the complete assessment solution for the Python Developer position at TechAbout Private Limited.
+A data engineering pipeline and polite web crawler built with Python 3.10+.
 
 The project consists of two core components:
-1. **Part A: PKHosting Renewals Cleanup (`clean.py`)** - Normalizes messy renewal exports from three billing systems, resolves ambiguous dates, standardizes monetary values and domains, deduplicates records, generates an issue audit trail, and computes renewal forecasts.
-2. **Part B: Polite TECHi Scraper (`techi_audit.py`)** - Respectful metadata collector for TECHi.com articles discovered via `robots.txt` and XML sitemaps, complete with rate limiting, real user agent, disk caching, and error resilience.
+1. **Part A: Renewals Cleanup Pipeline (`clean.py`)** - Normalizes messy renewal exports from three billing systems, resolves ambiguous dates, standardizes monetary values and domains, deduplicates records, generates an issue audit trail, and computes renewal forecasts.
+2. **Part B: Polite Web Metadata Scraper (`techi_audit.py`)** - Respectful metadata collector for articles discovered via `robots.txt` and XML sitemaps, complete with rate limiting, real user agent, disk caching, and error resilience.
 
 ---
 
 ## Repository Structure
 
 ```
-techabout-assessment/
+renewals-pipeline-and-web-audit/
 │
 ├── clean.py               # Part A: Main renewal data cleaning pipeline
 ├── renewals_raw.csv       # Part A: Raw source data (34 records, multi-system export)
@@ -42,7 +42,7 @@ techabout-assessment/
 
 ```bash
 # Clone or extract the project directory
-cd techabout-assessment
+cd renewals-pipeline-and-web-audit
 
 # Install dependencies
 pip install requests beautifulsoup4 pytest
