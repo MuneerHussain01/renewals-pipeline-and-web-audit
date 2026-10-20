@@ -1,0 +1,56 @@
+record_id,field,raw_value,problem,action_taken
+1001,domain,www.karachifoods.pk,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'karachifoods.pk'
+1001,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1003,service_type,SSL certificate,Service type not in standard form,Normalized to 'SSL Certificate'
+1004,domain,www.FaisalabadWeaves.pk,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'faisalabadweaves.pk'
+1004,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1004,registered_date,03/15/2024,Ambiguous date parsed as MM/DD/YYYY (DD/MM failed),Interpreted as 2024-03-15
+1004,renewal_date,08/20/2026,Ambiguous date parsed as MM/DD/YYYY (DD/MM failed),Interpreted as 2026-08-20
+1004,customer_id,,Customer ID is blank,Flagged for review
+1005,domain,multansweets.com.,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'multansweets.com'
+1005,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1005,contact_email,,Email is blank,Flagged for review
+1007,service_type,.pk domain registration,Service type not in standard form,Normalized to '.pk Domain'
+1007,registered_date,30/02/2024,Could not parse registration date,"Set to blank, flagged"
+1008,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1008,amount,,Amount is blank,Flagged for review
+1009,domain,www.RawalpindiMotors.pk,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'rawalpindimotors.pk'
+1010,service_type,SSL certificate,Service type not in standard form,Normalized to 'SSL Certificate'
+1011,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1013,domain,www.karachifoods.pk,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'karachifoods.pk'
+1013,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1014,service_type,.pk domain registration,Service type not in standard form,Normalized to '.pk Domain'
+1015,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1016,domain,WWW.BAHAWALPUR-DARBAR.PK,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'bahawalpur-darbar.pk'
+1017,service_type,SSL certificate,Service type not in standard form,Normalized to 'SSL Certificate'
+1017,customer_id,,Customer ID is blank,Flagged for review
+1018,service_type,.pk domain registration,Service type not in standard form,Normalized to '.pk Domain'
+1018,amount,$29.99,"Amount was in USD, converted to PKR",Converted at 278.0 PKR/USD = 8337.22 PKR
+1018,registered_date,04/15/2025,Ambiguous date parsed as MM/DD/YYYY (DD/MM failed),Interpreted as 2025-04-15
+1018,renewal_date,04/15/2027,Ambiguous date parsed as MM/DD/YYYY (DD/MM failed),Interpreted as 2027-04-15
+1019,domain,www.ChitralHandicrafts.pk,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'chitralhandicrafts.pk'
+1019,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1020,amount,"(2,500)",Negative amount (refund/credit),"Kept negative value, flagged as refund"
+1020,status,refunded,Status had typo or non-standard value,Normalized to 'cancelled'
+1021,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1021,registered_date,13/25/2024,Could not parse registration date,"Set to blank, flagged"
+1022,domain,www.Turbatfisheries.pk,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'turbatfisheries.pk'
+1023,service_type,SSL certificate,Service type not in standard form,Normalized to 'SSL Certificate'
+1024,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1024,status,cancled,Status had typo or non-standard value,Normalized to 'cancelled'
+1025,service_type,.pk domain registration,Service type not in standard form,Normalized to '.pk Domain'
+1026,service_type,SSL certificate,Service type not in standard form,Normalized to 'SSL Certificate'
+1028,domain,www.sukkurbarrage.pk,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'sukkurbarrage.pk'
+1028,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1029,service_type,SSL certificate,Service type not in standard form,Normalized to 'SSL Certificate'
+1030,domain,khairpurdates.com.,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'khairpurdates.com'
+1030,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1031,domain,www.thaborofurniture.PK,"Domain needed cleanup (case, www, trailing chars)",Normalized to 'thaborofurniture.pk'
+1031,service_type,.pk domain registration,Service type not in standard form,Normalized to '.pk Domain'
+1033,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1033,status,actve,Status had typo or non-standard value,Normalized to 'active'
+1034,service_type,shared hosting,Service type not in standard form,Normalized to 'Shared Hosting'
+1034,registered_date,09/30/2025,Ambiguous date parsed as MM/DD/YYYY (DD/MM failed),Interpreted as 2025-09-30
+1034,renewal_date,09/30/2026,Ambiguous date parsed as MM/DD/YYYY (DD/MM failed),Interpreted as 2026-09-30
+1001,record,"customer=PKH-201, domain=karachifoods.pk",Duplicate record (same customer + domain + service),Dropped in favor of record 1013 (latest renewal date / higher amount)
+1010,record,"customer=PKH-210, domain=gujranwalasteel.com","Duplicate record (same customer + domain + service); amounts differ across duplicates: {2800.0, 2500.0}",Dropped in favor of record 1026 (latest renewal date / higher amount)

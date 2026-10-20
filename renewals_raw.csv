@@ -1,0 +1,35 @@
+record_id,customer_id,domain,service_type,billing_cycle,amount,registered_date,renewal_date,status,contact_email
+1001,PKH-201,www.karachifoods.pk,shared hosting,annual,Rs 4500,15/03/2023,15/08/2026,active,ahmed.ali@karachifoods.pk
+1002,PKH-202,LahoreTextiles.com,VPS,monthly,"PKR 8,750",01/07/2025,01/08/2026,active,info@lahoretextiles.com
+1003,PKH-203,islamabadtech.pk,SSL certificate,annual,Rs 2500,22/06/2025,22/06/2027,active,admin@islamabadtech.pk
+1004,,www.FaisalabadWeaves.pk ,shared hosting,annual,Rs 4500,03/15/2024,08/20/2026,active,tariq.m@faisalabadweaves.pk
+1005,PKH-205,multansweets.com.,shared hosting,quarterly,"PKR 1,200",10/04/2025,10/07/2026,suspended,
+1006,PKH-206,PeshawarCrafts.PK,VPS,monthly,Rs 9000,25/01/2026,25/08/2026,active,bilal.khan@peshawarcrafts.pk
+1007,PKH-207,quettagems.pk,.pk domain registration,biennial,"PKR 3,000",30/02/2024,28/08/2026,active,gems@quettagems.pk
+1008,PKH-208,siaborifarms.com,shared hosting,annual,,14/08/2025,14/08/2026,active,hassan.r@siaborifarms.com
+1009,PKH-209,www.RawalpindiMotors.pk,VPS,quarterly,Rs 25000,05/11/2025,05/08/2026,cancelled,zain@rawalpindimotors.pk
+1010,PKH-210,gujranwalasteel.com,SSL certificate,annual,Rs 2500,18/09/2025,18/09/2026,active,steel@gujranwalasteel.com
+1011,PKH-211,hyderabadspices.pk,shared hosting,monthly,PKR 450,07/12/2025,07/08/2026,active,fatima.s@hyderabadspices.pk
+1012,PKH-212, abbottabadresorts.com,VPS,annual,Rs 95000,20/05/2025,20/05/2027,active,resort@abbottabadresorts.com
+1013,PKH-201,www.karachifoods.pk,shared hosting,annual,Rs 4500,15/03/2023,15/08/2026,active,ahmed.ali@karachifoods.pk
+1014,PKH-214,swatvalleytours.pk,.pk domain registration,annual,"PKR 1,500",13/06/2025,13/06/2027,active,tours@swatvalleytours.pk
+1015,PKH-215,muzaffarabadlodge.com,shared hosting,quarterly,Rs 3600,11/04/2025,11/07/2026,suspended,lodge@muzaffarabadlodge.com
+1016,PKH-216,WWW.BAHAWALPUR-DARBAR.PK,VPS,monthly,"PKR 8,750",02/08/2025,02/09/2026,active,darbar@bahawalpur-darbar.pk
+1017,,skarduadventures.pk,SSL certificate,annual,Rs 2500,09/10/2025,09/10/2026,active,adventure@skarduadventures.pk
+1018,PKH-218,gilgittreks.com,.pk domain registration,biennial,$29.99,04/15/2025,04/15/2027,active,info@gilgittreks.com
+1019,PKH-219,www.ChitralHandicrafts.pk,shared hosting,annual,Rs 4500,28/08/2025,28/08/2026,active,crafts@chitralhandicrafts.pk
+1020,PKH-220,dikimarket.pk,VPS,quarterly,"(2,500)",06/01/2025,06/01/2026,refunded,diki@dikimarket.pk
+1021,PKH-221,zhobminerals.com,shared hosting,annual,Rs 4500,13/25/2024,13/01/2026,active,minerals@zhobminerals.com
+1022,PKH-222,www.Turbatfisheries.pk ,VPS,monthly,"PKR 9,200",17/07/2025,17/08/2026,active,fish@turbatfisheries.pk
+1023,PKH-223,gwadarport.pk,SSL certificate,annual,Rs 2500,23/04/2025,23/04/2027,active,port@gwadarport.pk
+1024,PKH-224,MirpurKhas-farms.com,shared hosting,quarterly,"Rs 3,600",08/03/2025,08/06/2026,cancled,farms@mirpurkhas-farms.com
+1025,PKH-225,nawabshah-textiles.pk,.pk domain registration,annual,PKR 1500,30/09/2025,30/09/2026,Active,textile@nawabshah-textiles.pk
+1026,PKH-210,gujranwalasteel.com,SSL certificate,annual,Rs 2800,18/09/2025,18/09/2026,active,steel@gujranwalasteel.com
+1027,PKH-227,jacobabadoil.com,VPS,monthly,Rs 8750,05/06/2026,05/08/2026,ACTIVE,oil@jacobabadoil.com
+1028,PKH-228,www.sukkurbarrage.pk,shared hosting,annual,"PKR 4,500",12/02/2025,12/08/2026,active,barrage@sukkurbarrage.pk
+1029,PKH-229,larkanaarts.pk,SSL certificate,annual,Rs 2500,19/08/2025,19/08/2026,Suspended,arts@larkanaarts.pk
+1030,PKH-230,khairpurdates.com.,shared hosting,quarterly,Rs 3600,27/07/2025,27/10/2026,active,dates@khairpurdates.com
+1031,PKH-231,www.thaborofurniture.PK,.pk domain registration,biennial,PKR 3000,14/11/2024,14/11/2026,active,furniture@thaborofurniture.pk
+1032,PKH-232,sahiwalcattle.pk,VPS,annual,"Rs 95,000",03/05/2025,03/05/2027,active,cattle@sahiwalcattle.pk
+1033,PKH-233,okaragardens.com,shared hosting,monthly,PKR 450,21/12/2025,21/08/2026,actve,gardens@okaragardens.com
+1034,PKH-234,veharicotton.pk,shared hosting,annual,Rs 4500,09/30/2025,09/30/2026,cancelled,cotton@veharicotton.pk

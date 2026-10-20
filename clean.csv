@@ -1,0 +1,33 @@
+record_id,customer_id,canonical_domain,service,billing_cycle_months,amount_pkr,registered_on,renews_on,status,contact_email
+1002,PKH-202,lahoretextiles.com,VPS,1,8750.0,2025-07-01,2026-08-01,active,info@lahoretextiles.com
+1003,PKH-203,islamabadtech.pk,SSL Certificate,12,2500.0,2025-06-22,2027-06-22,active,admin@islamabadtech.pk
+1004,,faisalabadweaves.pk,Shared Hosting,12,4500.0,2024-03-15,2026-08-20,active,tariq.m@faisalabadweaves.pk
+1005,PKH-205,multansweets.com,Shared Hosting,3,1200.0,2025-04-10,2026-07-10,suspended,
+1006,PKH-206,peshawarcrafts.pk,VPS,1,9000.0,2026-01-25,2026-08-25,active,bilal.khan@peshawarcrafts.pk
+1007,PKH-207,quettagems.pk,.pk Domain,24,3000.0,,2026-08-28,active,gems@quettagems.pk
+1008,PKH-208,siaborifarms.com,Shared Hosting,12,,2025-08-14,2026-08-14,active,hassan.r@siaborifarms.com
+1009,PKH-209,rawalpindimotors.pk,VPS,3,25000.0,2025-11-05,2026-08-05,cancelled,zain@rawalpindimotors.pk
+1011,PKH-211,hyderabadspices.pk,Shared Hosting,1,450.0,2025-12-07,2026-08-07,active,fatima.s@hyderabadspices.pk
+1012,PKH-212,abbottabadresorts.com,VPS,12,95000.0,2025-05-20,2027-05-20,active,resort@abbottabadresorts.com
+1013,PKH-201,karachifoods.pk,Shared Hosting,12,4500.0,2023-03-15,2026-08-15,active,ahmed.ali@karachifoods.pk
+1014,PKH-214,swatvalleytours.pk,.pk Domain,12,1500.0,2025-06-13,2027-06-13,active,tours@swatvalleytours.pk
+1015,PKH-215,muzaffarabadlodge.com,Shared Hosting,3,3600.0,2025-04-11,2026-07-11,suspended,lodge@muzaffarabadlodge.com
+1016,PKH-216,bahawalpur-darbar.pk,VPS,1,8750.0,2025-08-02,2026-09-02,active,darbar@bahawalpur-darbar.pk
+1017,,skarduadventures.pk,SSL Certificate,12,2500.0,2025-10-09,2026-10-09,active,adventure@skarduadventures.pk
+1018,PKH-218,gilgittreks.com,.pk Domain,24,8337.22,2025-04-15,2027-04-15,active,info@gilgittreks.com
+1019,PKH-219,chitralhandicrafts.pk,Shared Hosting,12,4500.0,2025-08-28,2026-08-28,active,crafts@chitralhandicrafts.pk
+1020,PKH-220,dikimarket.pk,VPS,3,-2500.0,2025-01-06,2026-01-06,cancelled,diki@dikimarket.pk
+1021,PKH-221,zhobminerals.com,Shared Hosting,12,4500.0,,2026-01-13,active,minerals@zhobminerals.com
+1022,PKH-222,turbatfisheries.pk,VPS,1,9200.0,2025-07-17,2026-08-17,active,fish@turbatfisheries.pk
+1023,PKH-223,gwadarport.pk,SSL Certificate,12,2500.0,2025-04-23,2027-04-23,active,port@gwadarport.pk
+1024,PKH-224,mirpurkhas-farms.com,Shared Hosting,3,3600.0,2025-03-08,2026-06-08,cancelled,farms@mirpurkhas-farms.com
+1025,PKH-225,nawabshah-textiles.pk,.pk Domain,12,1500.0,2025-09-30,2026-09-30,active,textile@nawabshah-textiles.pk
+1026,PKH-210,gujranwalasteel.com,SSL Certificate,12,2800.0,2025-09-18,2026-09-18,active,steel@gujranwalasteel.com
+1027,PKH-227,jacobabadoil.com,VPS,1,8750.0,2026-06-05,2026-08-05,active,oil@jacobabadoil.com
+1028,PKH-228,sukkurbarrage.pk,Shared Hosting,12,4500.0,2025-02-12,2026-08-12,active,barrage@sukkurbarrage.pk
+1029,PKH-229,larkanaarts.pk,SSL Certificate,12,2500.0,2025-08-19,2026-08-19,suspended,arts@larkanaarts.pk
+1030,PKH-230,khairpurdates.com,Shared Hosting,3,3600.0,2025-07-27,2026-10-27,active,dates@khairpurdates.com
+1031,PKH-231,thaborofurniture.pk,.pk Domain,24,3000.0,2024-11-14,2026-11-14,active,furniture@thaborofurniture.pk
+1032,PKH-232,sahiwalcattle.pk,VPS,12,95000.0,2025-05-03,2027-05-03,active,cattle@sahiwalcattle.pk
+1033,PKH-233,okaragardens.com,Shared Hosting,1,450.0,2025-12-21,2026-08-21,active,gardens@okaragardens.com
+1034,PKH-234,veharicotton.pk,Shared Hosting,12,4500.0,2025-09-30,2026-09-30,cancelled,cotton@veharicotton.pk
