@@ -11,7 +11,7 @@ The project consists of two core components:
 ## Repository Structure
 
 ```
-APCRE-main/
+techabout-assessment/
 │
 ├── clean.py               # Part A: Main renewal data cleaning pipeline
 ├── renewals_raw.csv       # Part A: Raw source data (34 records, multi-system export)
@@ -42,7 +42,7 @@ APCRE-main/
 
 ```bash
 # Clone or extract the project directory
-cd APCRE-main
+cd techabout-assessment
 
 # Install dependencies
 pip install requests beautifulsoup4 pytest

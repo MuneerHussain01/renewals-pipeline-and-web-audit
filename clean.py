@@ -338,6 +338,16 @@ def find_duplicates(records):
 
 # -- main processing --
 
+def get_val(row, *aliases):
+    """Safely extract value from a CSV row supporting multiple column aliases."""
+    for alias in aliases:
+        target = alias.strip().lower()
+        for k, v in row.items():
+            if k and k.strip().lower() == target:
+                return v if v is not None else ""
+    return ""
+
+
 def process_file(input_path):
     """Main processing pipeline. Returns clean records, issues list, and stats."""
 
@@ -356,12 +366,12 @@ def process_file(input_path):
 
     # step 1: parse and normalize each row
     for row in raw_rows:
-        rid = row.get("record_id", "").strip()
-        cid = row.get("customer_id", "").strip()
+        rid = get_val(row, "record_id", "id", "rec_id").strip()
+        cid = get_val(row, "customer_id", "client_id", "cid").strip()
         rec = {"record_id": rid, "customer_id": cid}
 
         # domain
-        raw_domain = row.get("domain", "")
+        raw_domain = get_val(row, "domain", "domain_name", "canonical_domain", "url")
         canonical = normalize_domain(raw_domain)
         if canonical and canonical != raw_domain.strip().lower():
             issues.append({
@@ -382,7 +392,7 @@ def process_file(input_path):
         rec["canonical_domain"] = canonical or ""
 
         # service type
-        raw_service = row.get("service_type", "")
+        raw_service = get_val(row, "service_type", "service", "product", "plan")
         service = normalize_service(raw_service)
         if service and service != raw_service.strip():
             issues.append({
@@ -395,7 +405,7 @@ def process_file(input_path):
         rec["service"] = service or raw_service.strip()
 
         # billing cycle
-        raw_cycle = row.get("billing_cycle", "")
+        raw_cycle = get_val(row, "billing_cycle", "cycle", "billing_cycle_months", "period")
         cycle_months = guess_billing_cycle_months(raw_cycle)
         if cycle_months is None and raw_cycle.strip():
             issues.append({
@@ -416,7 +426,7 @@ def process_file(input_path):
         rec["billing_cycle_months"] = cycle_months or ""
 
         # amount
-        raw_amount = row.get("amount", "")
+        raw_amount = get_val(row, "amount", "amount_pkr", "price", "fee", "cost")
         amount_pkr, currency, is_converted = parse_amount(raw_amount)
         if is_converted:
             issues.append({
@@ -453,7 +463,7 @@ def process_file(input_path):
         rec["amount_pkr"] = amount_pkr if amount_pkr is not None else ""
 
         # registered date
-        raw_reg = row.get("registered_date", "")
+        raw_reg = get_val(row, "registered_date", "registered_on", "registration_date", "reg_date")
         reg_date, reg_fmt = parse_date(raw_reg)
         if reg_date and is_impossible_date(reg_date):
             issues.append({
@@ -484,7 +494,7 @@ def process_file(input_path):
         rec["registered_on"] = reg_date.isoformat() if reg_date else ""
 
         # renewal date
-        raw_ren = row.get("renewal_date", "")
+        raw_ren = get_val(row, "renewal_date", "renews_on", "expiry_date", "due_date", "ren_date")
         ren_date, ren_fmt = parse_date(raw_ren)
         if ren_date and is_impossible_date(ren_date):
             issues.append({
@@ -515,7 +525,7 @@ def process_file(input_path):
         rec["_ren_date"] = ren_date  # keep for later logic
 
         # status
-        raw_status = row.get("status", "")
+        raw_status = get_val(row, "status", "state", "account_status")
         status = normalize_status(raw_status)
         if status is None and raw_status.strip():
             issues.append({
@@ -545,7 +555,7 @@ def process_file(input_path):
         rec["status"] = status or ""
 
         # email
-        raw_email = row.get("contact_email", "")
+        raw_email = get_val(row, "contact_email", "email", "customer_email")
         email = normalize_email(raw_email)
         if email is None and raw_email.strip():
             issues.append({
